@@ -116,7 +116,6 @@ nav {
   padding: 25px;
   box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.0784313725);
   margin-top: -70px;
-  padding-left: 115px;
 }
 .about-delivery div {
   display: flex;
@@ -424,7 +423,6 @@ footer {
   cursor: pointer;
   line-height: 24px;
 }
-
 .footer__bottom-container {
   display: flex;
   justify-content: space-between;
@@ -462,3 +460,271 @@ footer {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* media */
+@media (max-width: 1080px) {
+.container {
+  max-width: 900px;
+}
+.main-image {
+   width: 526px;
+  }
+.about-delivery {
+  margin-top: 24px;
+}
+.restaurants-images {
+  width: 760px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+.text-block h1 {
+  font-size: 48px;
+}
+.restaurants-images .right-arrow {
+  right: 0;
+  left: 88%;
+}
+.restaurants-images .left-arrow {
+  left: 64px;
+}
+.restaurants-images {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+.specialities-block {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.specialities-block div  {
+  margin: 10px 10px;
+}
+.map_img {
+  width: 900px;
+}
+.yellow-kitchens .yellow-kitchens__images {
+  flex-wrap: wrap;
+}
+.yellow-kitchens .yellow-kitchens__images img {
+  width: 424px;
+  margin: 10px 10px;
+}
+}
+
+@media (min-width: 760px) and (max-width: 800px) {
+.text-block h1 {
+  font-size: 38px;
+}
+.main-block {
+  padding: 30px 25px;
+}
+.main-image {
+  width: 410px;
+}
+.about-delivery div {
+  column-gap: 16px;
+}
+.about-delivery {
+  justify-content: center;
+}
+.text-block_items {
+  justify-content: center;
+}
+.restaurants-images .right-arrow {
+  left: 92%;
+}
+.restaurants-images .left-arrow {
+  left: 14px;
+}
+.bg-blue .find-nearest-block span {
+  font-size: 15px;
+  letter-spacing: 0;
+}
+.specialities-block .right-arrow {
+  left: 84%;
+  top: 55%;
+}
+.specialities-block .left-arrow {
+  right: 84%;
+  top: 55%;
+}
+.map_img {
+  width: 100%;
+}
+.yellow-kitchens .yellow-kitchens__images {
+  justify-content: center;
+}
+.yellow-kitchens .yellow-kitchens__images img {
+  width: 344px;
+}
+.title-block {
+  padding: 60px 30px;
+}
+.bg-blue .find-nearest-block {
+  padding: 30px 19px;
+}
+.footer__top-container h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.footer__top-container p {
+  font-size: 12px;
+  margin-bottom: 16px;
+  line-height: 19px;
+}
+.footer__top-container .logo-block hr {
+  width: 80%;
+}
+.footer__top-container .logo-block {
+  width: 270px;
+}
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+.nav-logo {
+  width: 134px;
+}
+.nav-list {
+  width: 203px;
+}
+.main-image {
+  width: 350px;
+}
+.text-block {
+  margin-top: 15px;
+  text-align: center;
+}
+.main-block {
+  display: flex;
+  padding: 30px 0;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.text-block_items {
+  justify-content: center;
+}
+.nav-list img {
+  width: 18px;
+}
+.menu-icon img {
+  width: 16px;
+}
+.about-delivery {
+  column-gap: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.about-block {
+  margin-bottom: 30px;
+}
+.title-block h2 {
+  font-size: 30px;
+}
+.title-block button {
+  width: 105px;
+  font-size: 14px;
+}
+.restaurants-images .left-arrow {
+  display: none;
+}
+.restaurants-images .right-arrow {
+  display: none;
+} 
+.bg-blue .find-nearest-block h2 {
+  font-size: 30px;
+}
+.bg-blue .find-nearest-block span {
+  font-size: 14px;
+}
+.bg-blue .find-nearest-block .address-block {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  justify-content: center;
+}
+.bg-blue .find-nearest-block {
+  display: flex;
+  flex-direction: column;
+}
+.bg-blue .find-nearest-block .address-block input {
+  width: 220px;
+  text-align: center;
+  height: 60px;
+  font-size: 13px;
+  padding: 24px 16px;
+}
+.bg-blue .find-nearest-block .address-block img {
+  position: absolute;
+  top: 30%;
+  left: 8px;
+  width: 21px;
+  height: auto;
+}
+.bg-blue .find-nearest-block .address-block button {
+  display: inline-flex;
+  height: 60px;
+  font-size: 13px;
+}
+.specialities-block .left-arrow {
+  display: none
+}
+.specialities-block .right-arrow {
+  display: none;
+}
+.bg-limon {
+  background-image: none;
+}
+.bg-limon .items-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-limon .items-block .item {
+  margin-bottom: 30px;
+}
+.bg-limon .items-block .item span {
+  font-size: 12px;
+  text-align: center;
+}
+.bg-limon .items-block .item span {
+  bottom: 0px;
+}
+.map_img {
+  width: 360px;
+}
+.yellow-kitchens h2 {
+  font-size: 30px; 
+}
+.footer__top-container .logo-block {
+  display: none;
+}
+.footer__top-container h2 {
+  font-size: 16px;
+  text-align: center;
+}
+.footer__top-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer__top-container p {
+  font-size: 12px;
+  text-align: center;
+}
+.footer__bottom-container {
+  padding-top: 48px;
+  column-gap: 26px;
+  justify-content: center;
+}
+.footer__bottom-container ul {
+  column-gap: 16px;
+}
+}
